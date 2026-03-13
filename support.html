@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Support — Minutes Journal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --ink: #1a1a1a;
+      --muted: #6b6b6b;
+      --rule: #e5e0d8;
+      --bg: #faf9f7;
+      --accent: #2d4a3e;
+      --paper: #ffffff;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+
+    header {
+      background: var(--paper);
+      border-bottom: 1px solid var(--rule);
+      padding: 2.5rem 2rem;
+      text-align: center;
+    }
+
+    header .app-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      color: var(--accent);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-weight: 400;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 600;
+      color: var(--ink);
+      margin-top: 0.4rem;
+    }
+
+    header p {
+      margin-top: 0.6rem;
+      font-size: 0.95rem;
+      color: var(--muted);
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 4rem 2rem 6rem;
+    }
+
+    .contact-card {
+      background: var(--accent);
+      color: #fff;
+      padding: 2rem;
+      text-align: center;
+      margin-bottom: 3.5rem;
+    }
+
+    .contact-card p {
+      font-size: 0.95rem;
+      opacity: 0.85;
+      margin-bottom: 1rem;
+    }
+
+    .contact-card a {
+      display: inline-block;
+      background: #fff;
+      color: var(--accent);
+      font-weight: 500;
+      font-size: 0.95rem;
+      padding: 0.6rem 1.5rem;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    .contact-card a:hover { opacity: 0.9; }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .faq { margin-bottom: 3.5rem; }
+
+    .faq-item {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--rule);
+    }
+
+    .faq-item:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .faq-item h3 {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--ink);
+      margin-bottom: 0.4rem;
+    }
+
+    .faq-item p {
+      font-size: 0.92rem;
+      color: #3a3a3a;
+    }
+
+    .faq-item a {
+      color: var(--accent);
+      text-underline-offset: 3px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      border-top: 1px solid var(--rule);
+    }
+
+    @media (max-width: 600px) {
+      main { padding: 2.5rem 1.25rem 4rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="app-name">Minutes Journal</div>
+  <h1>Support</h1>
+  <p>We're here to help. Reach out anytime.</p>
+</header>
+
+<main>
+
+  <div class="contact-card">
+    <p>Have a question or ran into an issue? Send us an email and we'll get back to you as soon as possible.</p>
+    <a href="mailto:pico910314@gmail.com">pico910314@gmail.com</a>
+  </div>
+
+  <div class="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>What languages does Minutes Journal support?</h3>
+      <p>Minutes Journal supports transcription in multiple languages including English, Chinese, Spanish, and many more. The AI automatically detects the language of your audio.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is my data private?</h3>
+      <p>Yes. All journal entries are stored locally on your device. When you use AI features, only the audio or text needed for that request is processed — we do not store it. See our <a href="privacy.html">Privacy Policy</a> for full details.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I cancel my subscription?</h3>
+      <p>You can cancel anytime through your iPhone's Settings. Go to <strong>Settings → Apple ID → Subscriptions</strong>, find Minutes Journal, and tap Cancel Subscription. You'll retain access until the end of the current billing period.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I get a refund?</h3>
+      <p>Refunds are handled by Apple. You can request a refund at <a href="https://reportaproblem.apple.com" target="_blank">reportaproblem.apple.com</a>.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>The transcription doesn't seem accurate. What can I do?</h3>
+      <p>For best results, record in a quiet environment and speak clearly. Make sure your microphone is not obstructed. If you're transcribing a specific language, ensure the audio is clear and free of heavy background noise.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How do I restore my purchase on a new device?</h3>
+      <p>Open the app and go to the subscription screen. Tap <strong>Restore Purchases</strong> and sign in with the same Apple ID you used to originally subscribe.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>My free trial didn't apply. What should I do?</h3>
+      <p>Free trials are only available to new subscribers who haven't previously subscribed to that plan. If you believe this is an error, please contact us at <a href="mailto:pico910314@gmail.com">pico910314@gmail.com</a>.</p>
+    </div>
+
+  </div>
+
+</main>
+
+<footer>
+  &copy; 2026 Minutes Journal. All rights reserved. &nbsp;·&nbsp;
+  <a href="privacy.html">Privacy Policy</a> &nbsp;·&nbsp;
+  <a href="terms.html">Terms of Service</a>
+</footer>
+
+</body>
+</html>
